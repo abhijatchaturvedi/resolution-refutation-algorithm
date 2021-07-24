@@ -13,13 +13,13 @@ From a given file, your program should read the knowledge base and the query sta
 Operators:
 We will use the following characters for different operators (remaining operators are not in
 the scope of this assignment):
-OR : |
-NOT : !
+- OR : |
+- NOT : !
 Example input file:
-2 0
-A|B
-!B
-A
+- 2 0
+- A|B
+- !B
+- A
 
 The program should implement a resolution refutation proof, and report the result (1 if the
 KB entails the query, and 0 otherwise). Additionally, the program should print the resolution
